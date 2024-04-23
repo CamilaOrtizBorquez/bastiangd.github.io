@@ -246,6 +246,12 @@ footer {
   opacity: 0.8;
   height: 600px; 
   width: 100%;
+  border-radius: 10px;
+}
+
+.card img:hover{
+  transform: translateY(-1%);
+  transition: all 300ms ease-in-out;
 }
 
 .content{
